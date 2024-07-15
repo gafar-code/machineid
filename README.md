@@ -4,7 +4,7 @@
 
 … because sometimes you just need to reliably identify your machines.
 
-[![GoDoc](https://godoc.org/github.com/denisbrodbeck/machineid?status.svg)](https://godoc.org/github.com/denisbrodbeck/machineid) [![Go Report Card](https://goreportcard.com/badge/github.com/denisbrodbeck/machineid)](https://goreportcard.com/report/github.com/denisbrodbeck/machineid)
+[![GoDoc](https://godoc.org/github.com/gafar-code/machineid?status.svg)](https://godoc.org/github.com/gafar-code/machineid) [![Go Report Card](https://goreportcard.com/badge/github.com/gafar-code/machineid)](https://goreportcard.com/report/github.com/gafar-code/machineid)
 
 ## Main Features
 
@@ -18,13 +18,13 @@
 Get the library with
 
 ```bash
-go get github.com/denisbrodbeck/machineid
+go get github.com/gafar-code/machineid
 ```
 
 You can also add the cli app directly to your `$GOPATH/bin` with
 
 ```bash
-go get github.com/denisbrodbeck/machineid/cmd/machineid
+go get github.com/gafar-code/machineid/cmd/machineid
 ```
 
 ## Usage
@@ -35,7 +35,7 @@ package main
 import (
   "fmt"
   "log"
-  "github.com/denisbrodbeck/machineid"
+  "github.com/gafar-code/machineid"
 )
 
 func main() {
@@ -55,7 +55,7 @@ package main
 import (
   "fmt"
   "log"
-  "github.com/denisbrodbeck/machineid"
+  "github.com/gafar-code/machineid"
 )
 
 func main() {
@@ -113,7 +113,7 @@ import (
   "crypto/hmac"
   "crypto/sha256"
   "fmt"
-  "github.com/denisbrodbeck/machineid"
+  "github.com/gafar-code/machineid"
 )
 
 const appKey = "WowSuchNiceApp"
@@ -175,8 +175,8 @@ or
 
 ## Credits
 
-The Go gopher was created by [Denis Brodbeck](https://github.com/denisbrodbeck) with [gopherize.me](https://gopherize.me/), based on original artwork from [Renee French](http://reneefrench.blogspot.com/).
+The Go gopher was created by [Denis Brodbeck](https://github.com/gafar-code) with [gopherize.me](https://gopherize.me/), based on original artwork from [Renee French](http://reneefrench.blogspot.com/).
 
 ## License
 
-The MIT License (MIT) — [Denis Brodbeck](https://github.com/denisbrodbeck). Please have a look at the [LICENSE.md](LICENSE.md) for more details.
+The MIT License (MIT) — [Denis Brodbeck](https://github.com/gafar-code). Please have a look at the [LICENSE.md](LICENSE.md) for more details.
